@@ -1,0 +1,17 @@
+&*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+#container{
+    padding: 20px 220px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    background-color: rgb(229, 229, 157);
+}
